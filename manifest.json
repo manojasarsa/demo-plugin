@@ -1,0 +1,10 @@
+{
+  "name": "demo-plugin",
+  "id": "1158784118728590273",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figjam"
+  ],
+  "ui": "ui.html"
+}

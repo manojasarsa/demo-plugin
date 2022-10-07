@@ -1,0 +1,45 @@
+<h2>Marvin Plugin</h2>
+<p>Enter the URL: <input id="url"></p>
+<button id="create">Show Notes</button>
+<button id="cancel">Cancel</button>
+
+<script>
+
+  document.getElementById('create').onclick = () => {
+
+    const url = document.getElementById('url').value;
+
+    const result = fetch(url)
+      .then((data) => data.json())
+      .then((notes) => {
+        parent.postMessage({ pluginMessage: { type: 'create-shapes', notes } }, '*')
+      });
+    
+  }
+
+  document.getElementById('cancel').onclick = () => {
+    parent.postMessage({ pluginMessage: { type: 'cancel' } }, '*')
+  }
+
+</script>
+
+
+
+<!-- <h2>Shape & Connector Creator</h2>
+<p>Count: <input id="count" type="number" value="5"></p>
+<button id="create">Create</button>
+<button id="cancel">Cancel</button>
+
+<script>
+
+  document.getElementById('create').onclick = () => {
+    const textbox = document.getElementById('count');
+    const count = parseInt(textbox.value, 1000);
+    parent.postMessage({ pluginMessage: { type: 'create-shapes', count } }, '*')
+  }
+
+  document.getElementById('cancel').onclick = () => {
+    parent.postMessage({ pluginMessage: { type: 'cancel' } }, '*')
+  }
+
+</script> -->

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "brand": "Addidas",
+    "description": "ADDIDAS Men Green Gold-Toned Brand Logo Printed Polo Collar Applique Slim Fit Pure Cotton T-shirt",
+    "price": 4000,
+    "category": "men",
+    "size": "m"
+  },
+  {
+    "id": 2,
+    "brand": "Roadster",
+    "description": "Women Dusty Pink Cotton Printed Detail Round Neck T-shirt",
+    "price": 1900,
+    "category": "women",
+    "size": "m"
+  },
+  {
+    "id": 3,
+    "brand": "Hrx",
+    "description": "HRX Boys Navy Blue Cotton Jersey T-shirt",
+    "price": 1299,
+    "category": "boys",
+    "size": "l"
+  },
+  {
+    "id": 4,
+    "brand": "Hrx",
+    "description": "Boys Beige & Brown 2-pack",
+    "price": 1200,
+    "category": "boys",
+    "size": "s"
+  },
+  {
+    "id": 5,
+    "brand": "Puma",
+    "description": "Girls Pink Printed T-shirt",
+    "price": 5000,
+    "category": "girls",
+    "size": "s"
+  },
+  {
+    "id": 6,
+    "brand": "Puma",
+    "description": "Men Red & White Printed Football Manchester United 21/22 MUFC A JSY Jersey T-shirt",
+    "price": 6550,
+    "category": "men",
+    "size": "xl"
+  },
+  {
+    "id": 7,
+    "brand": "Roadster",
+    "description": "Men Green & Orange Colourblocked Hooded Sweatshirt",
+    "price": 2999,
+    "category": "men",
+    "size": "m"
+  }
+]
